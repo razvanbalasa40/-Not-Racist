@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lanes_array">
+        <item>Top</item>
+        <item>Jungle</item>
+        <item>Mid</item>
+        <item>A.D. Carry</item>
+        <item>Support</item>
+    </string-array>
+</resources>

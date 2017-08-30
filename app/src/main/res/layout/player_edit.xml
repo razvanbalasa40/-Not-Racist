@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_weight="1.2">
+
+            <ImageView
+                android:id="@+id/edit_player_picture"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/dyrus"
+                android:layout_weight="1"
+                android:layout_margin="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:weightSum="4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="Name:"
+                    android:textColor="#e8e8e8"
+                    android:textSize="@dimen/edit_text_height"/>
+
+                <EditText
+                    android:id="@+id/editable_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="#e8e8e8"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/edit_text_height"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Lane:"
+                    android:textColor="#e8e8e8"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/edit_text_height"/>
+
+                <Spinner
+                    android:id="@+id/editable_lane"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#e8e8e8"
+                    android:textSize="@dimen/edit_text_height"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:weightSum="7">
+
+            <TextView
+                android:id="@+id/points_left"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Points left - 10"
+                android:textSize="@dimen/edit_text_height"
+                android:gravity="center"
+                android:textColor="#e8e8e8"
+                android:layout_weight="0.5"/>
+
+            <TextView
+                android:id="@+id/points_skill1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Points in skill 1 : 10"
+                android:textSize="@dimen/edit_text_height"
+                android:gravity="center"
+                android:textColor="#e8e8e8"
+                android:layout_weight="0.5"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
