@@ -61,6 +61,9 @@ public class MainActivity extends AppCompatActivity {
         player = new Player("''Meiko''", lanes.get(4), "Tank", 0, bitmap, "#ff7d0c", "#f29646");
         players.add(player);
 
+        bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.meiko);
+        player = new Player("''Fufu''", lanes.get(4), "Tank", 0, bitmap, "#ff7d0c", "#f29646");
+        players.add(player);
 
         myAdapter.setPlayers(players);
 
