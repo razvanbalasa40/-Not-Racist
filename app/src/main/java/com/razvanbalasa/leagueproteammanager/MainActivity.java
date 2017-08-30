@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
         player = new Player("''Meiko''", lanes.get(4), "Tank", 0, bitmap, "#ff7d0c", "#f29646");
         players.add(player);
 
+        Toast.makeText(this, "Munca 1", Toast.LENGTH_SHORT).show();
 
         myAdapter.setPlayers(players);
 
