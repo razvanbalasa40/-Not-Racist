@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                     }
 
                     @Override public void onLongItemClick(View view, int position) {
-                        Toast.makeText(getApplicationContext(), players.get(position).getName(), Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Partz" + players.get(position).getName(), Toast.LENGTH_LONG).show();
 
                     }
                 })
