@@ -64,6 +64,11 @@ public class MainActivity extends AppCompatActivity {
         bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.meiko);
         player = new Player("''Fufu''", lanes.get(4), "Tank", 0, bitmap, "#ff7d0c", "#f29646");
         players.add(player);
+
+        bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.meiko);
+        player = new Player("''Marcel''", lanes.get(4), "Tank", 0, bitmap, "#ff7d0c", "#f29646");
+        players.add(player);
+
         Toast.makeText(this, "Munca 1", Toast.LENGTH_SHORT).show();
 
         myAdapter.setPlayers(players);
